@@ -1,0 +1,110 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    box-sizing: border-box;
+    
+}
+
+    
+header {
+    position:absolute;
+    top: 0;  
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 0.1);
+    color: white;
+    background-color: #2f2c2c;
+    width: 100%;
+    overflow: hidden;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 15px;
+}
+nav a{
+    padding: 8px;
+}
+li a{
+    color: white;
+}
+.logo, .logo:hover {
+    font-size: 15px;
+    color: white;
+    border: none;
+}
+nav li a:hover{
+    color: rgba(124, 255, 43, 0.745);
+}
+
+header{
+    position: sticky;
+    top: 0%;
+    background-color: white;
+}
+
+.profile{
+    background-color: green;
+}
+.profile-content {
+    max-width: 800px;
+    margin-left: 100px;
+    padding: 20px;
+}
+
+.profile-content h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.profile-content h2 {
+    font-size: 24px;
+    margin-top: 10px;
+    text-align: start;
+}
+
+.profile-content p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.profile-content img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-pict{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 73px;
+    margin-top: 22px;
+}
+.pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.pic1{
+    background-image: url(./img/profile.jpg);
+}
